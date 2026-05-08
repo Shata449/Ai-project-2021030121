@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{article} % تصغير الخط قليلاً لضمان المساحة
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry} % تقليل الهوامش لزيادة المساحة المتاحة
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% إعدادات الروابط
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% تنسيق الأقسام ليكون أكثر أناقة
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Ahmed Mohamed}} \\
+    \vspace{4pt}
+    \small Cairo, Egypt $|$ +20 1064086573 $|$ 
+    \href{mailto:shatabob14@gmail.com}{shatabob14@gmail.com} $|$ 
+    \href{https://github.com/yourusername}{GitHub} $|$ 
+    \href{https://linkedin.com/in/yourusername}{LinkedIn}
+\end{center}
+
+\section{Summary}
+Highly motivated Computer Science graduate from Cairo Higher Institute for Computer Science and Information Technology. Passionate about Artificial Intelligence and Software Engineering with a proven ability to develop end-to-end applications. Skilled in integrating AI models with modern web and mobile frameworks using Python, Flask, and Flutter.
+
+\section{Education}
+\textbf{Cairo Higher Institute for Computer Science and Information Technology} \hfill Graduated 2025 \\
+Bachelor of Computer Science and Information Systems \\
+\textit{Relevant Coursework:} Artificial Intelligence, Neural Networks, Database Management, Software Engineering.[cite: 3]
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, labelsep=0.1in, itemsep=0pt, parsep=2pt]
+    \item \textbf{Programming:} Python (Advanced), Dart, SQL, C++, Java, JavaScript.[cite: 3]
+    \item \textbf{AI \& Machine Learning:} LangChain, Google Gemini API, TensorFlow, Scikit-learn, NLP.[cite: 3]
+    \item \textbf{Frameworks \& Web:} Flask, Jinja2, HTML5, CSS3, RESTful APIs, Flutter.[cite: 3]
+    \item \textbf{Tools:} Git/GitHub, MySQL, SQLite, LaTeX, Docker, Microsoft Office.[cite: 3]
+\end{itemize}
+
+\section{Core Projects}
+\textbf{AI-Powered E-Commerce Platform (Graduation Project)} \hfill 2024 -- 2025 \\
+\begin{itemize}[leftmargin=0.15in, itemsep=0pt, parsep=2pt]
+    \item Engineered an E-commerce solution with an AI Shopping Assistant using \textbf{Google Gemini API} and \textbf{LangChain}.[cite: 3]
+    \item Developed a robust \textbf{Flask} backend and managed complex relational data using \textbf{MySQL}.[cite: 3]
+    \item Implemented \textbf{ConversationBufferMemory} to maintain context-aware dialogue for users.[cite: 3]
+    \item Built a cross-platform mobile interface using \textbf{Flutter} and a web dashboard via \textbf{Jinja2}.[cite: 3]
+\end{itemize}
+
+\textbf{Image Classification \& Recognition System} \hfill 2023 \\
+\begin{itemize}[leftmargin=0.15in, itemsep=0pt, parsep=2pt]
+    \item Designed a Convolutional Neural Network (CNN) for multi-class object recognition using TensorFlow.[cite: 3]
+    \item Optimized hyperparameters and data augmentation to achieve high accuracy on test datasets.[cite: 3]
+\end{itemize}
+
+\section{Experience}
+\textbf{Freelance Software Developer} \hfill 2023 -- Present \\
+\begin{itemize}[leftmargin=0.15in, itemsep=0pt, parsep=2pt]
+    \item Developing custom automation scripts and small-scale web applications for local businesses.[cite: 3]
+    \item Providing technical consultation on integrating AI features into existing software workflows.[cite: 3]
+\end{itemize}
+
+\section{Soft Skills}
+\textbf{Problem-Solving:} Debugging complex code and optimizing algorithms. $|$ \textbf{Teamwork:} Collaborating via Git.[cite: 3] \\
+\textbf{Continuous Learning:} Adapting to new technologies like Generative AI, LLMs, and modern IT roadmaps.[cite: 3]
+
+\end{document}
